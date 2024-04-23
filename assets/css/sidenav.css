@@ -1,0 +1,27 @@
+.tab-contents {
+    display: none;
+}
+
+.tab-contents.active-tab {
+    display: block;
+}
+
+.tab-links.active-link {
+    background-color: #7A211E;
+    border-radius: 2px;
+    /* text-align:center; */
+    color:white;
+    padding: 3px;
+    padding-left: 20px;
+    transition: background 0.5s;
+}
+
+.nav-contents.active-nav-tab {
+    display: block;
+}
+
+.nav-links.active-nav-link
+{
+    background-color: #7A211E;
+    color:white;
+} 
